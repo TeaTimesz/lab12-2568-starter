@@ -127,6 +127,7 @@ export default function HomePage() {
                 {/* แสดง Button Done & Button Delete */}
                 <Group>
                   <Checkbox onClick={() => toggleDoneTask(task.id)}></Checkbox>
+                  <Text>Done</Text>
                   <ActionIcon
                     variant="light"
                     color="red"

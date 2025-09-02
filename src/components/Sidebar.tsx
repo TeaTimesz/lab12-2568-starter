@@ -44,7 +44,7 @@ export default function Sidebar({ userName, type }: SidebarComponentProps) {
       {/* แสดงผู้ใช้งาน */}
       <Box p={10}>
         <Group gap = "xs">
-          <Indicator color = "red">
+          <Indicator color = "red" position="bottom-end">
             <Avatar src="Tea.jpg" alt = "pfp">
             </Avatar>
           </Indicator>
